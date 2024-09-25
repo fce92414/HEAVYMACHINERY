@@ -1,0 +1,559 @@
+#titulo1 {
+    color:darkorange;
+}
+
+
+.contraseñavendedor1,.contraseñavendedor2, .contraseñaregistrador1, .contraseñaadministrador1, .contraseñaadministrador2 {
+    color:blue;
+}
+
+#REGISTRO1 {
+    border-style: double;
+    border-color:dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 500px;
+}
+#REGISTRARSE1 {
+    color: black;
+    background-color:chartreuse;
+    
+}
+
+.REGISTRO0001{
+    background-color: chartreuse;
+    padding: 0.2rem 0.1rem;
+}
+
+
+#TITULO1 {
+    color: darkorange;
+    background-color:aqua;
+    }
+
+
+#TITULOP {
+    border-style:double;
+    border-color:dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+}
+
+.TITULOP1{
+    background-color: aqua;
+    padding: 2rem 1rem;
+}
+
+
+
+
+#REG1{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+
+}
+#REG2{
+    color: darkorange;
+    background-color: chartreuse;
+
+}
+.REG01{
+    background-color: chartreuse;
+    padding: 1rem 0.5rem;
+    
+}
+
+
+
+
+
+
+#REGISTRO3 {
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 1px;
+    border-width: 3px;
+}
+
+#REGISTRO3 {
+background-color:deepskyblue;
+}
+
+
+
+#REG11{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 360px;
+}
+
+#REG12{
+    color:black;
+    background-color:cyan
+}
+
+.REG13{
+    background-color: cyan;
+    padding: 0.02rem 0.005rem;
+}
+
+
+
+
+
+#TITULO5{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+}
+    
+
+.TITULO005{
+    background-color: aqua;
+    padding: 0.5rem 0.2rem;
+}
+
+
+
+
+
+#VENDEDORP{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 500px;
+}
+#VENDEDOR1{
+   color: darkorange;
+   background-color: aqua;
+}
+
+.VENDEDORP0001{
+    background-color: aqua;
+    padding: 1rem 0.5rem;
+}
+
+
+.VENDE1{
+    background-color: aqua;
+    padding: 1rem 0.5rem;
+}
+#VENDEDOR2{
+    color: darkorange;
+    background-color: aqua;
+}
+
+#VENDEDORDO{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 500px;
+}
+
+#REGISTRO7{
+   color: darkorange;
+   background-color: aqua;
+}
+
+#REGI01{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 500px;
+}
+
+.REGI1{
+    background-color: aqua;
+    padding: 1rem 0.5rem;
+}
+
+#ADMINISTRADORP{
+    border-style: double;
+    border-color:deepskyblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 500px;
+}
+#ADMINISTRADOR1{
+   color: darkorange;
+   background-color: aqua;
+}
+
+.ADMINISTRADOR0001{
+background-color: aqua;
+padding: 1rem 0.5rem;
+}
+
+#ADMINISTRADORDO{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 500px;
+}
+
+#ADMINISTRADOR2{
+   color: darkorange;
+   background-color: aqua;
+}
+
+.ADMINISTRADOR0002{
+   background-color: aqua;
+   padding: 1rem 0.5rem;
+}
+
+.tabla1, .table2, .table3, .table5, .table7, .table8, .table9{
+    border-style: double;
+    border-color:darkorange;
+    border-radius:1px;
+    border-width:3px;
+    background-color: orange;
+}
+
+#TITLE6{
+    border-style:double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 500px;
+}
+
+.TITLE006{
+    background-color: aqua;
+    padding: 0.001rem 0.0001rem;
+}
+#titul6{
+background-color: cyan;
+}
+
+#TITULO00002{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+}
+
+#TITULO002{
+    color:darkorange;
+    background-color: chartreuse;
+}
+
+.TITULO0002{
+    background-color: chartreuse;
+    padding: 1rem 0.5rem;
+}
+
+#Ingre1{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+}
+
+.Ingre2{
+    background-color: chartreuse;
+    padding: 2rem 1rem;
+}
+
+#Ingre3{
+    color: darkorange;
+}
+
+
+
+#VENDEPR{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 1331px;
+}
+
+#VENDEPS{
+    background-color: cyan;
+    color: black;
+}
+
+.VENDEPT{
+    background-color: cyan;
+    padding: 1rem 5rem;
+}
+
+#VENDEPRI1{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 1331px;
+}
+
+#VENDEPSE2{
+    background-color: cyan;
+    color: black;
+}
+
+.VENDEPTE3{
+    background-color:cyan;
+    padding: 1rem 3rem;
+}
+
+
+#RE1{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+}
+
+#RE2{
+    background-color: cyan;
+    color: black;
+}
+
+.RE3{
+    background-color: cyan;
+    padding: 1rem 3rem;
+
+}
+
+
+#ADM1{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+}
+
+#ADM2{
+    background-color: cyan;
+    color: black;
+}
+
+.ADM03{
+    background-color: cyan;
+    padding: 1rem 3rem;
+}
+
+#ADM01{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 1829px;
+}
+
+#ADM02{
+    background-color: cyan;
+    color: black;
+}
+
+.ADM3{
+    background-color: cyan;
+    padding: 1rem 3rem;
+}
+
+#ADMPR{
+    border-style: double;
+    border-color: dodgerblue;
+    border-radius: 1px;
+    border-width: 3px;
+    width: 1829px;
+}
+
+#ADMPS{
+    background-color: cyan;
+    color: black;
+}
+
+.ADMPT{
+    background-color: cyan;
+    padding: 1rem 3rem;
+}
+
+.table0003{
+    width: 700px;
+}
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12, #b13, #b14, #b15, #b16, #b17, #b18, #b19, #b20, #b21, #b22, #b23, #b24, #b25,#b26,
+#b27, #b28, #b29, #b30, #b31, #b32, #b33, #b34, #b35, #b36, #b37, #b38, #b39, #b40, #b41, #b42, #b43, #b44, #b45, #b46, #b47, #b48, #b49, #b50, #b51, #b52, #b53, #b54, #b55, #b56, #b57, #b58, #b59, #b60, #b61,
+#b62, #b63, #b64, #b65, #b66, #b67, #b68, #b69, #b70, #b71, #b72, #b73, #b74, #b75, #b76, #b77, #b78, #b79, #b80, #b81, #b82, #b83, #b84, #b85, #b86, #b87, #b88, #b89, #b90, #b91, #b92, #b93, #b94, #b95, #b96, #b97 {
+    background-color: greenyellow;
+    color: black;
+}
+
+#sesion1, #sesion70, #sesion71, #sesion72, #sesion73{
+
+    border-style:groove;
+    border-radius: 2px;
+    border-width: 5px;
+    border-color:gold;
+    color:black;
+    background-color:lightgray;
+}
+
+#sesion01{
+
+    border-style:groove;
+    border-color: gold;
+    color: black;
+    background-color: yellow;
+}
+
+#sesion02{
+
+    border-style: groove;
+    border-color: gold;
+    color: black;
+    background-color: yellow;
+}
+
+#sesion03{
+
+    border-style: groove;
+    border-color:limegreen;
+    color: black;
+    background-color:aquamarine;
+}
+
+#sesion04{
+    
+    border-style: groove;
+    border-color: limegreen;
+    color: black;
+    background-color: aquamarine;
+
+}
+
+#sesion05{
+
+    border-style: groove;
+    border-color: limegreen;
+    color: black;
+    background-color: aquamarine;
+}
+
+#sesion06{
+
+    border-style: groove;
+    border-color: limegreen;
+    color: black;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 50px;
+    width: 180px;
+
+}
+
+#sesion07{
+
+    border-style: groove;
+    border-color: limegreen;
+    color: black;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 50px;
+    width: 180px;
+    
+}
+
+#sesion08{
+
+    border-style: groove;
+    border-color: limegreen;
+    color: black;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 50px;
+    width: 180px;
+}
+
+#sesion09{
+
+    border-style: groove;
+    border-color: limegreen;
+    color: black;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 50px;
+    width: 200px;
+    }
+ 
+#sesion10{
+
+    border-style: groove;
+    border-color: limegreen;
+    color: black;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    height: 50px;
+    width: 200px;
+}
+
+#sesion11, #sesion14, #sesion16, #sesion18, #sesion20{
+
+    border-style: groove;
+    border-color: gold;
+    color: black;
+    background-color: yellow;
+    
+}
+
+#sesion12, #sesion13, #sesion15, #sesion17, #sesion19{
+
+    border-style: groove;
+    border-color: gold;
+    color: black;
+    background-color:orange;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 200;
+    
+}
+
+#sesion21, #sesion22, #sesion23, #sesion24, #sesion25, #sesion44, #sesion45{
+    border-style: groove;
+    border-color: gold;
+    color: black;
+    background-color: orange;
+}
+
+#sesion26, #sesion27, #sesion28, #sesion29, #sesion30, #sesion31, #sesion32, #sesion33, #sesion34, #sesion35, #sesion36, #sesion37, #sesion38, #sesion39,
+#sesion40, #sesion41, #sesion42, #sesion43, #sesion44, #sesion45, #sesion46, #sesion47, #sesion48, #sesion49, #sesion50,
+#sesion51, #sesion52, #sesion53, #sesion54, #sesion55, #sesion56, #sesion57, #sesion58, #sesion59, #sesion60,
+#sesion61{
+
+    border-style: groove;
+    border-color: orangered;
+    background-color: orange;
+
+
+}
