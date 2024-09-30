@@ -1,3 +1,25 @@
+<?php
+
+$server = "localhost";
+$user = "root";
+$pass = "";
+$baseDeDatos = "datosinicioprogramasoftware";
+
+$enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
+
+?> 
+
+<style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+
+<link rel="stylesheet" href="index.html">
+<link rel="stylesheet" href="doccss.css">
+
+
+
 <html>
 <head>
     <style>
@@ -44,27 +66,28 @@
 <section>
 
     <table class="table5" bgcolor="black" style="width: 300px;">
-<form action="/formulario" method="get">
+<form action="#" name="vendedor2" method="POST">
     <tr>
         <th bgcolor="white"><label for="Documento"><h4>Ingrese su No de Documento:</h4></label>
-            <input type="number" id="Documento" name="Ingrese su No de Documento" placeholder="Documento"/>
+            <input type="number" id="Documento" name="ingresesudocumentogeneral" placeholder="Documento"/>
         </th>
     </tr>
 </br>
     <tr>
         <th bgcolor="white"><label for="Contraseña"><h4>Ingrese su Contraseña:</h4></label>
-            <input type="password" id="password" name="Contraseña" placeholder="Contraseña"/>
+            <input type="password" id="password" name="ingresesucontraseñageneral" placeholder="Contraseña"/>
         </th>
-    <tr>
-        <th bgcolor="white">  
+    
 
-        <button type="submit" id="sesion22">¡Listo!</button>
 
+        
+    </table>
+    </br>
+    <button input type="submit" name="registrarsegeneral">¡Listo!</button>
         </br>
                
     </form>
 
-    </table>
     
 </br>
 
@@ -74,7 +97,7 @@
 </br>
     <a href="Ingresovendedor general.html"><button id="sesion14"><h3>ACCEDER</h3></button></a>
 
-
+    
 
 </section>
 
@@ -82,3 +105,21 @@
     
 </html>
 </body>
+
+<?php
+
+if(isset($_POST["registrarsegeneral"])) {
+
+    $ingresesudocumentogeneral = $_POST     ["ingresesudocumentogeneral"];
+    $ingresesucontraseñageneral = $_POST    ["ingresesucontraseñageneral"];
+    
+   
+    $insertarDatos = "INSERT INTO iniciosdesesionvendedoresgenerales VALUES('$ingresesudocumentogeneral', '$ingresesucontraseñageneral', '')";
+    
+
+
+    $ejecutarInsertar = mysqli_query ($enlace, $insertarDatos);
+
+}
+
+?>

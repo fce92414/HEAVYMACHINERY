@@ -58,7 +58,7 @@
     <center>
         <section>
 
-    <form action="/formulario" method="POST">
+    <form action="DatosdeUsuariosregistrados" method="POST">
         <table class="tabla1" style="width: 360px;">
     
 
@@ -76,14 +76,14 @@
 
         <tr>
         <th bgcolor="white"><label for="Cédula de ciudadania">Seleccione su Tipo de Documento Con el No asignado que se le envio al correo:</label>
-        <input type="number" id="Cédula de ciudadania" name="Cedula de ciudadania" placeholder="Cedula de ciudadania"/> 
+        <input type="number" id="CC" name="Cedula de ciudadania" placeholder="Cedula de ciudadania"/> 
         </th>
         </tr>
 
 
         <tr>  
         <th bgcolor="white"><label for="No de Documento">Ingrese su No de Documento:</label>
-        <input type="number" id="No de Documento" name="No de Documento" placeholder="No de Documento"/>
+        <input type="number" id="NoDocumento" name="No de Documento" placeholder="No de Documento"/>
         </th>
         </tr>
 
@@ -92,21 +92,21 @@
 
 
         <th bgcolor="white"><label for="Correo electrónico">Ingrese su Correo electronico:</label>
-        <input type="email" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electronico"/>
+        <input type="email" id="Correo" name="Correo electrónico" placeholder="Correo electronico"/>
         </th>
         </tr>
         
 
         <tr>
         <th bgcolor="white"><label for="Contraseña">Cree una contrasena *Su contrasena debe tener caracteres, letras minusculas, mayusculas, y simbolos:</label>
-        <input type="password" id="Cree una contrasena" name="*Su contrasena debe tener caracteres, letras minusculas, mayusculas, y simbolos" placeholder="Contrasena"/>
+        <input type="password" id="Contraseñanueva" name="*Su contrasena debe tener caracteres, letras minusculas, mayusculas, y simbolos" placeholder="Contrasena"/>
         </th>
         </tr>
         
 
         <tr>
         <th bgcolor="white"><label for="Contraseña">Confirme su contrasena:</label>
-        <input type="password" id="Confirme su contrasena" name="Contrasena" placeholder="Contrasena"/>
+        <input type="password" id="Confirmarcontraseña" name="Contrasena" placeholder="Contrasena"/>
         </th>
         </tr>
    
@@ -119,7 +119,12 @@
         
         <button type="reset" id="sesion03">ACTUALIZAR REGISTRO</button>
         <button type="submit" id="sesion04">REGISTRAR FINALMENTE</button>
-        <input type="submit" id="sesion05" name="TERMINAR">
+
+        <button type="submit" id="sesion05">TERMINAR</button>
+
+
+
+
 
         </form>
         </section>

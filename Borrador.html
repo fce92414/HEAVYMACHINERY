@@ -1,43 +1,76 @@
-<table style="width:800px;">
-    <form>
-    
-    <tr>
-    <td bgcolor="green"><h2>REGISTROS DE LAS COMPRAS DE MAQUINARIA</h2></td>
-    </tr>
-    
-        <td bgcolor="green"><h2>USUARIOS REGISTRADOS:</h2></th>
-        <td bgcolor="green"><h2>MAQUINARIA A COMPRAR:</h2></td>
-        <td bgcolor="green"><h2>PRECIO:</h2></td>
-        <td bgcolor="green"><h2>FECHA:</h2></td>
-        <td bgcolor="green"><h2>HORA:</h2></td>
-    </tr>
-    <tr>
-        <td bgcolor="green"><h3>USUARIOS:</h3></td>
-        <td bgcolor="green"><h3>MAQUINARIA:</h3></td>
-        <td bgcolor="gray"></td>
-        <td bgcolor="gray"></td>
-        <td bgcolor="gray"></td>
-    </tr>
-        <td bgcolor="white"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="white"></td>
-        <td bgcolor="white"></td>
-    </tr>
-    </form>
-    
-    </table>
-</br>
-    <button><h2>VALIDAR DATOS</h2></button>
-    <td><button><h2>DAR REGISTRO FINAL</h2></button></td>
+<?php
+
+$server = "localhost";
+$user = "root";
+$pass = "";
+$baseDeDatos = "datosinicioprogramasoftware";
+
+$enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
+
+?> 
 
 
-    <style type="text/css">
-        h2{
-            color:chartreuse;
-        }
-    </style>
+
+<link rel="stylesheet" href="style.css">
+
+
+<html>
+    <head>
+        <title>
+            Formulario Ingreso
+        </title>
+    </head>
+</html>
 
 <center>
-    <td><button><h4>Mostrar más</h4></button></td>
-    </center>
+
+<html>
+    <h1>BIENVENIDO</h1>
+</html>
+
+</center>
+
+
+<center>
+</br>
+<body>
+
+ <form action="registrousuario.php" name="ejemplo" method="post">
+
+ 
+ <h2>Ingrese el nombre:</h2><input type="text" name="nombre" placeholder="nombre">
+</br>
+ <h2>Ingrese la contraseña:</h2><input type="password" name="contraseña" placeholder="contraseña">
+</br>
+<h2>CORREO ELECTRÓNICO:</h2><input type="gmail" name="correo" placeholder="correo">
+ 
+
+ <input type="submit" name="registrarse">
+ 
+ <input type="reset">
+
+</center>
+
+</form>
+</body>
+
+
+<?php
+
+if(isset($_POST["registrarse"])) {
+
+    $nombre = $_POST ["nombre"];
+    $contraseña = $_POST ["contraseña"];
+    $correos = $_POST ["correo"];
+   
+    
+    
+    $insertarDatos = "INSERT INTO registrosdesoftware VALUES('$nombre', '$contraseña', '$correo', '')";
+    
+
+
+    $ejecutarInsertar = mysqli_query ($enlace, $insertarDatos);
+
+}
+
+?>

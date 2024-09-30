@@ -57,80 +57,19 @@
         }
     </style>
 
-    <title></title>
-    <center>
-    <article id="REGISTRO1">
-        <header class="REGISTRO0001">
-    <p><h3 id="REGISTRARSE1">REGISTRESE PARA PODER ACCEDER AL PROGRAMA DE LA EMPRESA:</h3></p>
-        </header>
-    </article>
+
+
+
+<center>
+
+<h2><p>No de Documento</p></h2>
+<form action="datos.php" method="GET">
+
+<input type="text" name="nombre" placeholder="Documento identidad">
+
+
+    <button type="submit">Ingresar</button>
+
+    </form>
+
     </center>
-
-</br>
-               
-                <center><a href="http://localhost/MI%20PROYECTO%20SOFTWARE/interfazprograma.php" target="_blank"><button id="sesion01"><p><strong>REGISTRARSE</strong></h3></p></button></a></center>
-                     
-            </tr>
-    </center>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>

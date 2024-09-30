@@ -431,7 +431,7 @@ background-color: cyan;
 
 }
 
-#sesion05{
+#sesion05, #SESION62{
 
     border-style: groove;
     border-color: limegreen;
@@ -549,11 +549,29 @@ background-color: cyan;
 #sesion26, #sesion27, #sesion28, #sesion29, #sesion30, #sesion31, #sesion32, #sesion33, #sesion34, #sesion35, #sesion36, #sesion37, #sesion38, #sesion39,
 #sesion40, #sesion41, #sesion42, #sesion43, #sesion44, #sesion45, #sesion46, #sesion47, #sesion48, #sesion49, #sesion50,
 #sesion51, #sesion52, #sesion53, #sesion54, #sesion55, #sesion56, #sesion57, #sesion58, #sesion59, #sesion60,
-#sesion61{
+#sesion61, #sesion62{
 
     border-style: groove;
     border-color: orangered;
     background-color: orange;
+
+
+}
+
+#cci{
+ background-color: darkorange;
+ color: darkorange;
+}
+
+#cc1{
+
+border-style: double;
+border-color: darkorange;
+border-radius: 50px;
+border-color: darkorange;
+color: black;
+background-color: orange;
+
 
 
 }
