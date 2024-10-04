@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENDEDOR PRINCIPAL</title>
+</head>
+<body>
+    
+
+
+</body>
+</html>
+
+
+
+
 <?php
 
 $server = "localhost";
@@ -37,7 +54,7 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 </head>
 <style type="text/css">
     body{
-        background-image: url("IMGMAQUINARIAPESADA2.jpg");
+        background-image: url("imageinterfaz01.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -45,10 +62,15 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 </style>
     
     <title></title>
+    <style type="text/css">
+        h1{
+            color: yellow;
+        }
+    </style>
 
     <center>
     </tr>
-    <p><h1>HEAVY MACHINERY</h1></p>
+    <p><h1><strong>HEAVY MACHINERY</strong></h1></p>
     </center>
 
     <style type="text/css">
@@ -59,7 +81,7 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
     <center>
         <article id="VENDEDORP">
             <header class="VENDEDORP0001">
-        <h2 id="VENDEDOR1"><strong>¡BIENVENIDO VENDEDOR PRINCIPAL!</strong></h2>
+        <h2><strong>¡BIENVENIDO VENDEDOR PRINCIPAL!</strong></h2>
             </header>
         </article>
     </br>
@@ -76,7 +98,7 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 
     <tr>
     <th bgcolor="white"><label for="Documento"><h4>Ingrese su No de Documento:</h4></label>
-    <input type="number" id="Documento" name="ingresesudocumento" placeholder="Documento"/>
+    <input type="number" id="Documento" name="ingresesudocumento" required placeholder="Documento"/>
     </th>
     </tr>
 
@@ -84,7 +106,7 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 
     <tr>
     <th bgcolor="white"><label for="Contraseña"><h4>Ingrese su Contraseña:</h4></label>
-    <input type="password" id="password" name="ingresesucontraseña" placeholder="Contraseña"/>
+    <input type="password" id="password" name="ingresesucontraseña" required placeholder="Contraseña"/>
     </th>
 
     
@@ -94,11 +116,13 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 
     </table>
 
-    </br>
-
-    <button input type="submit" name="registrarse">¡Listo!</button>
-
+    <button input id="sesion115" type="submit"  name="registrarse" required>¡Listo!</button>
     </form>
+
+    
+    
+
+    
     
 </br>
 

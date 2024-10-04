@@ -17,26 +17,24 @@
   border-width: 3px;
   width: 500px;
   border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    width: 200;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 200;
 }
 #REGISTRARSE1 {
   color: black;
   background-color: chartreuse;
-  
 }
 
 .REGISTRO0001 {
   background-color: chartreuse;
   padding: 0.2rem 0.1rem;
   border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    width: 200;
-    
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 200;
 }
 
 #TITULO1 {
@@ -88,26 +86,25 @@
   border-radius: 1px;
   border-width: 3px;
   border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    width: 200;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 200;
   width: 360px;
 }
 
 #REG12 {
   color: black;
   background-color: cyan;
-  
 }
 
 .REG13 {
   background-color: cyan;
   padding: 0.02rem 0.005rem;
   border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   width: 360px;
 }
 
@@ -117,20 +114,18 @@
   border-radius: 1px;
   border-width: 3px;
   border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .TITULO005 {
   background-color: aqua;
   padding: 0.5rem 0.2rem;
   border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #VENDEDORP {
@@ -233,10 +228,9 @@
   border-width: 3px;
   background-color: orange;
   border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-   
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 #TITLE6 {
@@ -246,20 +240,19 @@
   border-width: 3px;
   width: 500px;
   border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .TITLE006 {
   background-color: aqua;
-  padding: 0.001rem 0.01rem;
+  padding: 0.001rem 0.0001rem;
   border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-  }
-
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
 
 #titul6 {
   background-color: cyan;
@@ -271,10 +264,10 @@
   border-radius: 1px;
   border-width: 3px;
   border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    width: 200;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 200;
 }
 
 #TITULO002 {
@@ -286,10 +279,10 @@
   background-color: chartreuse;
   padding: 1rem 0.5rem;
   border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    width: 200;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 200;
 }
 
 #Ingre1 {
@@ -736,4 +729,106 @@
   border-color: darkorange;
   color: black;
   background-color: orange;
+}
+
+#T1 {
+  color: darkgrey;
+  background-color: darkgray;
+}
+
+.menssage {
+  border-style: double;
+  border-radius: 5px;
+  color: aqua;
+  background-color: aqua;
+}
+
+#popover1 {
+  background-color: orange;
+  border: 1px solid orangered;
+  border-radius: 0.5rem;
+  box-shadow: 5rem 5rem rgba(0, 0, 0, black);
+  color: black;
+  font-size: 1rem;
+  max-width: 500px;
+  padding: 5rem;
+  position: absolute;
+  z-index: 1000;
+}
+
+#popover1::backdrop {
+  backdrop-filter: blur(3px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 950;
+}
+
+#popover3,
+#popover4,
+#popover5,
+#popover6,
+#popover7,
+#popover50,
+#popover51,
+#popover52,
+#popover53,
+#popover54,#pop {
+  background-color: gainsboro;
+  border: 1px solid orangered;
+  border-radius: 0.5rem;
+  box-shadow: 3rem 7rem rgba(0, 0, 0, black);
+  color: black;
+  font-size: 1rem;
+  max-width: 500px;
+  padding: 3rem;
+  position: absolute;
+  z-index: 500;
+}
+
+#popover3::backdrop,
+#popover4::backdrop,
+#popover5::backdrop,
+#popover6::backdrop,
+#popover7::backdrop,
+#popover50::backdrop,
+#popover53::backdrop,
+#popover54::backdrop,
+#popover51::backdrop,
+#popover52::backdrop, #pop::backdrop {
+  backdrop-filter: blur(3px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 750;
+}
+
+#sesion90,
+#sesion100,
+#sesion101,
+#sesion102,
+#sesion103 {
+  border-style: groove;
+  border-color: black;
+  background-color: orange;
+}
+
+#sesion115,
+#sesion116,
+#sesion117,
+#sesion118,
+#sesion119 {
+  border-style: groove;
+  border-color: azure;
+  background-color: lightgrey;
+}
+
+#ingreso001 {
+  border-style: groove;
+  border-color: azure;
+  background-color: lightgrey;
 }

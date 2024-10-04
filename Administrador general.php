@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMINISTRADOR GENERAL</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
 <?php
 
 $server = "localhost";
@@ -36,7 +55,7 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 </head>
 <style type="text/css">
     body{
-        background-image: url("IMGMAQUINARIAPESADA2.jpg");
+        background-image: url("imageinterfaz01.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -44,6 +63,11 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 </style>
     
     <title></title>
+    <style type="text/css">
+        h1{
+            color: yellow;
+        }
+    </style>
     <center>
     </tr>
     <p><h1>HEAVY MACHINERY</h1></p>
@@ -70,30 +94,25 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 <form action="#" name="administradorgeneral" method="POST">
     <tr>
         <th bgcolor="white"><label for="Documento"><h4>Ingrese su No de Documento:</h4></label>
-            <input type="number" id="Documento" name="ingresesudocumentoadministradorgeneral" placeholder="Documento"/>
+            <input type="number" id="Documento" name="ingresesudocumentoadministradorgeneral" required placeholder="Documento"/>
         </th>
     </tr>
 </br>
     <tr>
         <th bgcolor="white"><label for="Contraseña"><h4>Ingrese su Contraseña:</h4></label>
-            <input type="password" id="password" name="ingresesucontraseñaadministradorgeneral" placeholder="Contraseña"/>
+            <input type="password" id="password" name="ingresesucontraseñaadministradorgeneral" required placeholder="Contraseña"/>
         </th>
 <tr>
 </br>
 
 
 </table>
-    </br>
-    <button input type="submit" name="administradorge2">¡Listo!</button>
-
+<button input id="sesion119" type="submit"  name="administradorge2" required>¡Listo!</button>
             
     </form>
  
     
 </br>
-    </br>
-
-<button type="button" id="sesion19"><strong>¿Olvidó su Contraseña?</strong></button>
 
 </br>
 </br>

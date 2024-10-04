@@ -1,4 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO AL PROGRAMA</title>
+</head>
+<body>
+    
+</body>
+</html>
 
 <?php
 
@@ -12,7 +22,8 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 ?> 
 
 <style>
-        table, th, td {
+
+    table, th, td {
             border: 1px solid black;
         }
     </style>
@@ -32,7 +43,7 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 </head>
 <style type="text/css">
     body{
-        background-image: url("IMGMAQUINARIAPESADA2.jpg");
+        background-image: url("imageinterfaz01.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -43,11 +54,11 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 
 <title></title>
     <center>
-        <article id="REG1">
+    <article id="REG1">
     <header class="REG01">
     </tr>
     <h1 id="REG2">HEAVY MACHINERY</h1>
-        </article>
+    </article>
     </header>
     
     </center>
@@ -56,7 +67,7 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
             color:darkorange;
         }
     </style>
-</br>
+    </br>
     
 
 
@@ -75,12 +86,10 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 <center>
 <article id="REG11">
 <header class="REG13">
-       
-
-    </tr>
+</tr>
 <p><h2 id="REG12">REGISTRO USUARIO NUEVO:</h2></p>
 </header>
-    </article>
+</article>
 </center>
 
 
@@ -89,7 +98,8 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 <body>
 
 
-        
+
+
 <form action="#" name="ejemplo" method="POST">
 <form action="Ingreso.html" name="ejemplo" method="POST">
  
@@ -104,41 +114,39 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 
 
 
-
-
     <tr>
     <th bgcolor="white">
- <h3>NOMBRES Y APELLIDOS:</h3><input type="text" name="nombre" placeholder="nombresyapellidos">
+ <h3>NOMBRES Y APELLIDOS:</h3><input type="text" name="nombre" required placeholder="nombresyapellidos">
     </th>
     </tr>
 
     <tr>
     <th bgcolor="white">
-<h3>No DE DOCUMENTO ASIGNADO:</h3><input type="number" name="nodocasignado" placeholder="No Documento Asignado">
+<h3>No DE DOCUMENTO ASIGNADO:</h3><input type="number" name="nodocasignado" required placeholder="No Documento Asignado">
     </th>
     </tr>
 
     <tr>
     <th bgcolor="white">
-<h3>NO DOCUMENTO:</h3><input type="number" name="nodocumento" placeholder="No Documento">
+<h3>NO DOCUMENTO:</h3><input type="number" name="nodocumento" required placeholder="No Documento">
     </th>
     </tr>
 
     <tr>
     <th bgcolor="white">
-<h3>CORREO ELECTRÓNICO:</h3><input type="gmail" name="correo" placeholder="correo">
+<h3>CORREO ELECTRÓNICO:</h3><input type="email" name="correo" required placeholder="correo">
     </th>
     </tr>
 
     <tr>
     <th bgcolor="white">
-<h3>CONTRASEÑA NUEVA:</h3><input type="password" name="contraseña" placeholder="contraseña">
+<h3>CONTRASEÑA NUEVA:</h3><input type="password" name="contraseña" required minlength="5" placeholder="contraseña">
     </th>
     </tr>
 
     <tr>
     <th bgcolor="white">
-<h3>CONFIRMAR CONTRASEÑA NUEVA:</h3><input type="password" name="confirmarcontraseña" placeholder="Confirmar contraseña">
+<h3>CONFIRMAR CONTRASEÑA NUEVA:</h3><input type="password" name="confirmarcontraseña" required placeholder="Confirmar contraseña">
     </th>
     </tr>
 
@@ -148,22 +156,49 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
     </table>
     </br>
 
+ <button  popovertarget="popover1" input id="SESION04" type="submit" name="registrarse" required>REGISTRARSE</button>
 
- <button input id="SESION04" type="submit" name="registrarse">REGISTRARSE</button>
 
- <button input id="SESION03" type="reset">ACTUALIZAR REGISTRO</button>
+ 
+
+
+ <button input id="SESION03" type="reset" required>ACTUALIZAR REGISTRO</button>
 
  
    
 </center>
 
+
+
+
+
+
 </form>
 
 
 
+<html>
+<div>
+    <body>
 <center>
-<a href="Ingreso.html" target="_blank"><button id="SESION62"><strong>INGRESAR AL PROGRAMA</strong></button></a>
-</center>
+<button popovertarget="popover1">TERMINÉ EL REGISTRO</button>
+ <div id="popover1" popover>
+   <h1><strong> ¡DATOS REGISTRADOS!</strong></h1></br>
+   Ahora podrá acceder al programa y seleccionar su rol asignado.
+    </body>
+</div>
+</html>
+
+<a href="Terminal de registro.html" target="_blank"><button type="submit">INGRESO</button>
+    </center>
+    </div>
+
+    </br>
+
+
+
+
+
 
 
 </body>
@@ -190,7 +225,10 @@ if(isset($_POST["registrarse"])) {
     
 
 
+    
     $ejecutarInsertar = mysqli_query ($enlace, $insertarDatos);
+
+
 
 }
 

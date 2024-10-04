@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENDEDOR GENERAL</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
 <?php
 
 $server = "localhost";
@@ -34,7 +50,7 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 
 <style type="text/css">
     body{
-        background-image: url("IMGMAQUINARIAPESADA2.jpg");
+        background-image: url("imageinterfaz01.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -42,6 +58,11 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 </style>
     
     <title></title>
+    <style type="text/css">
+        h1{
+            color: yellow;
+        }
+    </style>
     <center>
     </tr>
     <p><h1>HEAVY MACHINERY</h1></p>
@@ -69,24 +90,27 @@ $enlace = mysqli_connect ($server, $user, $pass, $baseDeDatos);
 <form action="#" name="vendedor2" method="POST">
     <tr>
         <th bgcolor="white"><label for="Documento"><h4>Ingrese su No de Documento:</h4></label>
-            <input type="number" id="Documento" name="ingresesudocumentogeneral" placeholder="Documento"/>
+            <input type="number" id="Documento" name="ingresesudocumentogeneral" required placeholder="Documento"/>
         </th>
     </tr>
 </br>
     <tr>
         <th bgcolor="white"><label for="Contraseña"><h4>Ingrese su Contraseña:</h4></label>
-            <input type="password" id="password" name="ingresesucontraseñageneral" placeholder="Contraseña"/>
+            <input type="password" id="password" name="ingresesucontraseñageneral" required placeholder="Contraseña"/>
         </th>
     
 
 
         
     </table>
-    </br>
-    <button input type="submit" name="registrarsegeneral">¡Listo!</button>
-        </br>
-               
+    <button input id="sesion115" type="submit"  name="registrarsegeneral" required>¡Listo!</button>
     </form>
+    </br>
+
+
+
+
+   
 
     
 </br>
